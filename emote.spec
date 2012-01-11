@@ -20,7 +20,7 @@ Name:		emote
 Version:	0.0.1
 Release:	0.%{svnrev}.1
 License:	GPLv3
-Group:		System Environment/Enlightenment
+Group:		Graphical desktop/Enlightenment
 URL:		http://enlightenment.org/
 Source: 	%{name}-%{version}.%{svnrev}.tar.xz
 
