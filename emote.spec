@@ -9,7 +9,7 @@
 #cd ..; \
 #tar -Jcf emote-$PKG_VERSION.tar.xz emote/ --exclude .svn --exclude .*ignore
 
-%define svnrev	66729
+%define svnrev	76838
 
 %define major   0
 %define libname %mklibname %{name} %{major}
@@ -22,7 +22,7 @@ Release:	0.%{svnrev}.1
 License:	GPLv3
 Group:		Graphical desktop/Enlightenment
 URL:		http://enlightenment.org/
-Source: 	%{name}-%{version}.%{svnrev}.tar.xz
+Source0: 	%{name}-%{version}.%{svnrev}.tar.xz
 
 BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(elementary)
@@ -76,4 +76,3 @@ rm -fr %{buildroot}/%{_datadir}/%{name}/{COPYING,AUTHORS}
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/*.pc
 %{_includedir}/%{name}/*.h
-
