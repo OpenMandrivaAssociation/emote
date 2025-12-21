@@ -24,6 +24,11 @@ Group:		Graphical desktop/Enlightenment
 URL:		https://enlightenment.org/
 Source0: 	%{name}-%{version}.%{svnrev}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(elementary)
 
